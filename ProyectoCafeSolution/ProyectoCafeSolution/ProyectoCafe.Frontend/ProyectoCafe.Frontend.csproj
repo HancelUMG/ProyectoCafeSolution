@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10E3353F-BEC3-4164-9D67-3391B1504F3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoCafe.Frontend</RootNamespace>
+    <AssemblyName>ProyectoCafe.Frontend</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.6.0\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BancosRegistrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BancosRegistrados.Designer.cs">
+      <DependentUpon>BancosRegistrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeneficiosRegistrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeneficiosRegistrados.Designer.cs">
+      <DependentUpon>BeneficiosRegistrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BodegasRegistradas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BodegasRegistradas.Designer.cs">
+      <DependentUpon>BodegasRegistradas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientesRegistrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientesRegistrados.Designer.cs">
+      <DependentUpon>ClientesRegistrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormasPagoRegistradas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasPagoRegistradas.Designer.cs">
+      <DependentUpon>FormasPagoRegistradas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoConPrecio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresoConPrecio.Designer.cs">
+      <DependentUpon>IngresoConPrecio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresosCPRegistrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresosCPRegistrados.Designer.cs">
+      <DependentUpon>IngresosCPRegistrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoSinPrecio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresoSinPrecio.Designer.cs">
+      <DependentUpon>IngresoSinPrecio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresosSPRegistrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresosSPRegistrados.Designer.cs">
+      <DependentUpon>IngresosSPRegistrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaBodega.Designer.cs">
+      <DependentUpon>NuevaBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaFormaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaFormaPago.Designer.cs">
+      <DependentUpon>NuevaFormaPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoBanco.Designer.cs">
+      <DependentUpon>NuevoBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoBeneficio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoBeneficio.Designer.cs">
+      <DependentUpon>NuevoBeneficio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoCliente.Designer.cs">
+      <DependentUpon>NuevoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoUsuario.Designer.cs">
+      <DependentUpon>NuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PostCompra.Designer.cs">
+      <DependentUpon>PostCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuarios Registrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios Registrados.Designer.cs">
+      <DependentUpon>Usuarios Registrados.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BancosRegistrados.resx">
+      <DependentUpon>BancosRegistrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeneficiosRegistrados.resx">
+      <DependentUpon>BeneficiosRegistrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BodegasRegistradas.resx">
+      <DependentUpon>BodegasRegistradas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientesRegistrados.resx">
+      <DependentUpon>ClientesRegistrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasPagoRegistradas.resx">
+      <DependentUpon>FormasPagoRegistradas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresoConPrecio.resx">
+      <DependentUpon>IngresoConPrecio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresosCPRegistrados.resx">
+      <DependentUpon>IngresosCPRegistrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresoSinPrecio.resx">
+      <DependentUpon>IngresoSinPrecio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresosSPRegistrados.resx">
+      <DependentUpon>IngresosSPRegistrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaBodega.resx">
+      <DependentUpon>NuevaBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaFormaPago.resx">
+      <DependentUpon>NuevaFormaPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoBanco.resx">
+      <DependentUpon>NuevoBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoBeneficio.resx">
+      <DependentUpon>NuevoBeneficio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoCliente.resx">
+      <DependentUpon>NuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoUsuario.resx">
+      <DependentUpon>NuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostCompra.resx">
+      <DependentUpon>PostCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Usuarios Registrados.resx">
+      <DependentUpon>Usuarios Registrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoCafe.Backend\ProyectoCafe.Backend.csproj">
+      <Project>{e6f3b073-e27e-41a9-aa92-48382a6e0f58}</Project>
+      <Name>ProyectoCafe.Backend</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

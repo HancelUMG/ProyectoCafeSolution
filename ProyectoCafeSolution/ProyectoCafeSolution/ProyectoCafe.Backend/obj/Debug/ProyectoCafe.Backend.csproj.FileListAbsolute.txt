@@ -1,0 +1,12 @@
+C:\Users\mbetancourt\Documents\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\bin\Debug\ProyectoCafe.Backend.dll
+C:\Users\mbetancourt\Documents\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\bin\Debug\ProyectoCafe.Backend.pdb
+C:\Users\mbetancourt\Documents\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\obj\Debug\ProyectoCafe.Backend.csprojAssemblyReference.cache
+C:\Users\mbetancourt\Documents\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\obj\Debug\ProyectoCafe.Backend.csproj.CoreCompileInputs.cache
+C:\Users\mbetancourt\Documents\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\obj\Debug\ProyectoCafe.Backend.dll
+C:\Users\mbetancourt\Documents\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\obj\Debug\ProyectoCafe.Backend.pdb
+C:\Users\mbetancourt\Desktop\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\bin\Debug\ProyectoCafe.Backend.dll
+C:\Users\mbetancourt\Desktop\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\bin\Debug\ProyectoCafe.Backend.pdb
+C:\Users\mbetancourt\Desktop\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\obj\Debug\ProyectoCafe.Backend.csprojAssemblyReference.cache
+C:\Users\mbetancourt\Desktop\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\obj\Debug\ProyectoCafe.Backend.csproj.CoreCompileInputs.cache
+C:\Users\mbetancourt\Desktop\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\obj\Debug\ProyectoCafe.Backend.dll
+C:\Users\mbetancourt\Desktop\Proyectos\ProyectoCafeSolution\ProyectoCafe.Backend\obj\Debug\ProyectoCafe.Backend.pdb
